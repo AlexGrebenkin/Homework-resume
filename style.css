@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color:#f1f1f1;
+}
+
+@media (max-width: 675px) {
+    .header__subtitle {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+  }
+
+  @media (max-width: 675px) {
+    .header__img {
+        width: 100px;
+        height: 200px;
+
+    }
+}
+
+.header {
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.header__img {
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin: 10px 0 0 0;
+    box-shadow: 13px 12px 14px rgba(0, 0, 0, 0.5);
+    
+}
+
+.header__info {
+    max-width: 100%;
+}
+
+.header__title {
+    padding-left: 30%;
+    font-size: 2em;
+    padding: 0;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__subtitle {
+    padding-left: 10%;
+    font-size: 16px;
+    padding: 0px;
+    margin: 30px 0 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    border: 3px solid black;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: 25px auto;
+    box-shadow: 13px 12px 14px rgba(0, 0, 0, 0.4);
+    background-color: rgb(211, 211, 211, .8);
+}
+
+
+.section__title {
+    padding: 0px 0px 0px 0px;
+    margin: 10px auto 0px auto;
+    font-size: 25px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.section__list {
+    max-width: 19%;
+    margin: auto;
+    padding: 10px 0 10px 20px;
+    font-size: 16px;
+}
+
+section__list li::marker {
+    text-align: center;
+}
+
+a {
+    text-decoration: 0;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+a:active {
+    color:blue;
+}
+
+
+.section__list li {
+    padding-bottom: 5px;
+}
+
+.section__exp {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.section__table {
+    margin: 0 auto;
+    padding: 0px 0px 15px 0px;
+}
+
+.section__table th {
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+
+.section__table td {
+    padding-bottom: 5px;
+    padding-right: 60px;
+}
+
+.article {
+    max-width: 800px;
+    margin: 25px auto 5px;
+}
+
+.article__pmme {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.groupstyle label {
+    display: block;
+    padding-bottom: 6px;
+}
+
+.groupstyle input, textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: black;
+}
+
+.article__block {
+    display: flex;
+}
+
+.article__name {
+  width: 50%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.article__email {
+    width: 50%;
+}
+
+.button {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.button__btn {
+    border: 1px solid transparent;
+    background: #4676D7;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.button__btn:hover {
+    background: #1d49aa;
+}
+
+.button__btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.button__btn:active {
+    color: #cbd6ee;
+}
+
+.section__information h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.section__social {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    
+}
+
+
+.section__iconvk {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.section__icontg {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.section__iconyoutube {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.section__iconinstagram {
+    width: 40px;
+}
+
+.footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 0, 0, .6);
+    font-size: 20px;
+}
